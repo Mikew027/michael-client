@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "michael-client"
+version = "0.1.0"
+description = "Pragmatic client for the Michael GraphQL API (HTTP + subscriptions + SQLite + analytics)"
+authors = [{name = "Michael Wilson", email = "mikewilson276@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9",
+    "websockets>=12.0",
+    "pandas>=2.0",
+    "plotly>=5.0",
+]
+
+[project.scripts]
+michael-client = "michael_client.cli:main"
