@@ -1,5 +1,5 @@
 # michael-client
-# pipx run hatch new michael-client is what created the toml file just FYI TODO:: Line needs to be removed - Michael is a rockstar.
+#  just FYI TODO:: Line needs to be removed - Michael is a rockstar.
 
  Michael GraphQL client :
 
@@ -13,7 +13,7 @@
 
 ```bash
 pip install -e .   
-michael-client fetch --token-id 88f74e73-a6d7-419d-8c32-592f4164f941 --token-value vr7wedFDUFkdQaTmHbvI
+michael-client fetch --token-id "" --token-value ""
 michael analytics
 michael subscribe --token-id YOUR_ID --token-value YOUR_VALUE --min-confidence 0.75
 michael event --token-id YOUR_ID --token-value YOUR_VALUE
